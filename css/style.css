@@ -1,6 +1,74 @@
+/* General Content */
+html {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+}
+*:before,*:after {
+	box-sizing: inherit;
+}
 body {
 	background-color: lightgray;
 }
 div {
-	border: 1px solid chocolate;
+	border: 1px solid red;
 }
+
+
+/* Navigation Bar*/
+.top-navigation {
+	background-color: #fff;
+}
+.top-navigation > .content {
+	width: 60rem;
+	height: 4.375rem;
+	margin: 0 auto;
+}
+.top-navigation > .logo {
+	padding: 0 0.9375rem;
+	height: 4.375rem;
+}
+.top-navigation .navigation-links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	color: #838994;
+	letter-spacing: 0.03rem;
+}
+.top-navigation .navigation-links > li {
+display: inline-block;
+margin-top: 0.5rem;
+margin-left: 1.563rem;
+}
+img {
+	margin-left: 5rem;
+	margin-top: 1rem;
+}
+.top-navigation .navigation-links > .active {
+color: #4c5058;
+font-weight: 500;
+}
+.top-navigation .navigation-links li:hover {
+	cursor: pointer;	
+	color: #333333;
+}
+a:link {
+text-decoration: none;
+color: #838994;
+}
+a:visited {
+text-decoration: none;
+}
+a:hover {
+text-decoration: none;
+color: #333333;
+}
+a:active {
+text-decoration: underline;
+color:black;
+}
+
+/*Masthead*/
+
+/*Features*/
+
+/*Footer Content*/
