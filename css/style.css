@@ -9,10 +9,6 @@ html {
 body {
 	background-color: lightgray;
 }
-
-div {
-	border: 1px solid red;
-}
 .content {
 	width: 50rem;
 	padding-left: 0.938rem;
